@@ -9,7 +9,6 @@ div.innerHTML = `
 <p class='zoombox-zoomValue'>100%</p>
 <p class='zoombox-caption'>caption</p>
 <p class='zoombox-count'>Image 1 of 9</p>
-<p class='zoombox-about'>ZoomBox By <a href='https://www.worldsofashishpatel.com' target='_blank'>Ashish Patel</a></p>
 <div class='zoombox-preview'>
 
 </div>
