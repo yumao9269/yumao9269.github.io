@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html>
 <body>
-<img src="20230405_south_luhansk.png" alt="South Luhansk 2023-4-5">
+  <div>
+    <img id="image" src="20230405_south_luhansk.png" alt="South Luhansk 2023-4-5">
+  </div>
+  <button type="button"
+    onclick="show()" id="btnID">
+    Show Image
+  </button>
+  <script>
+     function show() {
+     /* Access image by id and change
+       the display property to block*/
+       document.getElementById('image')
+         .style.display = "block";
+ 
+       document.getElementById('btnID')
+         .style.display = "none";
+     }
+  </script>  
 </body>
 </html>
